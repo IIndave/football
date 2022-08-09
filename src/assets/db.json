@@ -1,0 +1,633 @@
+{
+	"Ligas":[
+		{
+			"id": "1",
+			"nombre": "La Liga Santander",
+            "pais":"España",
+            "clubs":[
+                {
+                    "id": "1",
+		            "nombre":"Club Atlético Osasuna",
+                    "abreviatura":"CAO",
+		            "estadio": "El Sadar",
+                    "capacidad":"23.576",
+		            "ciudad": "Pamplona, Navarra",
+                    "entrenador":"Jagoba Arrasate",
+                    "jugadores":[
+                        {
+                            "id":"1",
+                            "dorsal":"1",
+                            "nombre":"Sergio",
+                            "apellido":"Herrera",
+                            "cumpleaños":"12/07/1993",
+                            "posicion":"Portero",
+                            "nacionalidad":"España"
+                        },{
+                            "id":"2",
+                            "dorsal":"25",
+                            "nombre":"Aitor",
+                            "apellido":"Fernandez",
+                            "cumpleaños":"03/05/1991",
+                            "posicion":"Portero",
+                            "nacionalidad":"España"
+                        },{
+                            "id":"3",
+                            "dorsal":"13",
+                            "nombre":"Juan",
+                            "apellido":"Perez",
+                            "cumpleaños":"15/07/1996",
+                            "posicion":"Portero",
+                            "nacionalidad":"España"
+                        },{
+                            "id":"4",
+                            "dorsal":"5",
+                            "nombre":"David",
+                            "apellido":"Garcia",
+                            "cumpleaños":"14/02/1994",
+                            "posicion":"Defensa",
+                            "nacionalidad":"España"
+                        },{
+                            "id":"5",
+                            "dorsal":"4",
+                            "nombre":"Unai",
+                            "apellido":"Garcia",
+                            "cumpleaños":"03/09/1992",
+                            "posicion":"Defensa",
+                            "nacionalidad":"España"
+                        },{
+                            "id":"6",
+                            "dorsal":"23",
+                            "nombre":"Aridane",
+                            "apellido":"Hernandez",
+                            "cumpleaños":"23/03/1989",
+                            "posicion":"Defensa",
+                            "nacionalidad":"Guinea Ecuatorial"
+                        },{
+                            "id":"7",
+                            "dorsal":"39",
+                            "nombre":"Manu",
+                            "apellido":"Sanchez",
+                            "cumpleaños":"24/08/2000",
+                            "posicion":"Defensa",
+                            "nacionalidad":"España"
+                        },{
+                            "id":"8",
+                            "dorsal":"3",
+                            "nombre":"Juan",
+                            "apellido":"Cruz",
+                            "cumpleaños":"28/07/1992",
+                            "posicion":"Defensa",
+                            "nacionalidad":"España"
+                        },{
+                            "id":"9",
+                            "dorsal":"2",
+                            "nombre":"Nacho",
+                            "apellido":"Vidal",
+                            "cumpleaños":"24/01/1995",
+                            "posicion":"Defensa",
+                            "nacionalidad":"España"
+                        },{
+                            "id":"10",
+                            "dorsal":"15",
+                            "nombre":"Ruben",
+                            "apellido":"Peña",
+                            "cumpleaños":"18/07/1991",
+                            "posicion":"Defensa",
+                            "nacionalidad":"España"
+                        },{
+                            "id":"11",
+                            "dorsal":"32",
+                            "nombre":"Jesus",
+                            "apellido":"Areso",
+                            "cumpleaños":"02/07/1999",
+                            "posicion":"Defensa",
+                            "nacionalidad":"España"
+                        },{
+                            "id":"12",
+                            "dorsal":"6",
+                            "nombre":"Lucas",
+                            "apellido":"Torro",
+                            "cumpleaños":"19/07/1994",
+                            "posicion":"Mediocampo",
+                            "nacionalidad":"España"
+                        },{
+                            "id":"13",
+                            "dorsal":"7",
+                            "nombre":"Jon",
+                            "apellido":"Moncayola",
+                            "cumpleaños":"13/05/1998",
+                            "posicion":"Mediocampo",
+                            "nacionalidad":"España"
+                        },{
+                            "id":"14",
+                            "dorsal":"8",
+                            "nombre":"Darko",
+                            "apellido":"Brasanac",
+                            "cumpleaños":"12/02/1992",
+                            "posicion":"Mediocampo",
+                            "nacionalidad":"Serbia"
+                        },{
+                            "id":"15",
+                            "dorsal":"19",
+                            "nombre":"Pablo",
+                            "apellido":"Ibañez",
+                            "cumpleaños":"20/09/1998",
+                            "posicion":"Mediocampo",
+                            "nacionalidad":"España"
+                        },{
+                            "id":"16",
+                            "dorsal":"10",
+                            "nombre":"Roberto",
+                            "apellido":"Torres",
+                            "cumpleaños":"07/03/1989",
+                            "posicion":"Mediocampo",
+                            "nacionalidad":"España"
+                        },{
+                            "id":"17",
+                            "dorsal":"28",
+                            "nombre":"Javi",
+                            "apellido":"Martinez",
+                            "cumpleaños":"22/12/1999",
+                            "posicion":"Mediocampo",
+                            "nacionalidad":"España"
+                        },{
+                            "id":"18",
+                            "dorsal":"14",
+                            "nombre":"Ruben",
+                            "apellido":"Garcia",
+                            "cumpleaños":"14/07/1993",
+                            "posicion":"Mediocampo",
+                            "nacionalidad":"España"
+                        },{
+                            "id":"19",
+                            "dorsal":"24",
+                            "nombre":"Moi",
+                            "apellido":"Gomez",
+                            "cumpleaños":"13/06/1994",
+                            "posicion":"Mediocampo",
+                            "nacionalidad":"España"
+                        },{
+                            "id":"20",
+                            "dorsal":"11",
+                            "nombre":"Kike",
+                            "apellido":"Barja",
+                            "cumpleaños":"04/04/1997",
+                            "posicion":"Delantero",
+                            "nacionalidad":"España"
+                        },{
+                            "id":"21",
+                            "dorsal":"22",
+                            "nombre":"Rober",
+                            "apellido":"Ibañez",
+                            "cumpleaños":"22/03/1993",
+                            "posicion":"Delantero",
+                            "nacionalidad":"España"
+                        },{
+                            "id":"22",
+                            "dorsal":"9",
+                            "nombre":"Chimy",
+                            "apellido":"Avila",
+                            "cumpleaños":"06/02/1994",
+                            "posicion":"Delantero",
+                            "nacionalidad":"Argentina"
+                        },{
+                            "id":"23",
+                            "dorsal":"17",
+                            "nombre":"Ante",
+                            "apellido":"Budimir",
+                            "cumpleaños":"22/07/1991",
+                            "posicion":"Delantero",
+                            "nacionalidad":"Croacia"
+                        },{
+                            "id":"24",
+                            "dorsal":"18",
+                            "nombre":"Kike",
+                            "apellido":"Garcia",
+                            "cumpleaños":"25/11/1989",
+                            "posicion":"Delantero",
+                            "nacionalidad":"España"
+                        },{
+                            "id":"25",
+                            "dorsal":"20",
+                            "nombre":"Ivan",
+                            "apellido":"Barbero",
+                            "cumpleaños":"17/08/1998",
+                            "posicion":"Delantero",
+                            "nacionalidad":"España"
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+		            "nombre":"Futbol Club Barcelona",
+                    "abreviatura":"FCB",
+		            "estadio": "Spotify Camp Nou",
+                    "capacidad":"99.354",
+		            "ciudad": "Barcelona, Cataluña",
+                    "entrenador":"Xavi Hernanez",
+                    "jugadores":[
+                        {
+
+                        }
+                    ]
+                },{
+                    "id": "3",
+		            "nombre":"Real Madrid",
+                    "abreviatura":"RM",
+		            "estadio": "Santiago Bernabeu",
+                    "capacidad":"81.044",
+		            "ciudad": "Madrid",
+                    "entrenador":"Carlo Ancelotti",
+                    "jugadores":[
+                        {
+
+                        }
+                    ]
+                },{
+                    "id": "4",
+		            "nombre":"Atlético de Madrid ",
+                    "abreviatura":"ATM",
+		            "estadio": "Civitas Metropolitano",
+                    "capacidad":"68.456",
+		            "ciudad": "Madrid",
+                    "entrenador":"Diego Simeone",
+                    "jugadores":[
+                        {
+
+                        }
+                    ]
+                },{
+                    "id": "5",
+		            "nombre":"Villarreal Club de Futbol",
+                    "abreviatura":"VCF",
+		            "estadio": "La Cerámica",
+                    "capacidad":"23.500",
+		            "ciudad": "Villarreal, Castellón",
+                    "entrenador":"Unai Emery",
+                    "jugadores":[
+                        {
+
+                        }
+                    ]
+                },{
+                    "id": "6",
+		            "nombre":"Real Sociedad",
+                    "abreviatura":"RSO",
+		            "estadio": "Reale Arena",
+                    "capacidad":"39.500",
+		            "ciudad": "San Sebastian, Pais Vasco",
+                    "entrenador":"Imanol Alguacil",
+                    "jugadores":[
+                        {
+
+                        }
+                    ]
+                },{
+                    "id": "7",
+		            "nombre":"Sevilla Futbol Club",
+                    "abreviatura":"SFC",
+		            "estadio": "Ramón Sanchez Pizjuán",
+                    "capacidad":"43.883",
+		            "ciudad": "Sevilla",
+                    "entrenador":"Julen Lopetegui",
+                    "jugadores":[
+                        {
+
+                        }
+                    ]
+                },{
+                    "id": "8",
+		            "nombre":"Real Betis Balompié",
+                    "abreviatura":"RBB",
+		            "estadio": "Benito Villamarín",
+                    "capacidad":"59.378",
+		            "ciudad": "Sevilla",
+                    "entrenador":"Manuel Pellegrini",
+                    "jugadores":[
+                        {
+
+                        }
+                    ]
+                },{
+                    "id": "9",
+		            "nombre":"Valencia Club de Futbol",
+                    "abreviatura":"VCF",
+		            "estadio": "Mestalla",
+                    "capacidad":"48.600",
+		            "ciudad": "Valencia",
+                    "entrenador":"Gennaro Gattuso",
+                    "jugadores":[
+                        {
+
+                        }
+                    ]
+                },{
+                    "id": "10",
+		            "nombre":"Athletic Club de Bilbao",
+                    "abreviatura":"ATH",
+		            "estadio": "San Mamés",
+                    "capacidad":"53.289",
+		            "ciudad": "Bilbao, Pais Vasco",
+                    "entrenador":"Ernesto Valverde",
+                    "jugadores":[
+                        {
+
+                        }
+                    ]
+                },{
+                    "id": "11",
+		            "nombre":"Getafe Club de Futbol",
+                    "abreviatura":"GET",
+		            "estadio": "Coliseum Alfonso Perez",
+                    "capacidad":"16.800",
+		            "ciudad": "Madrid",
+                    "entrenador":"Quique Sánchez Flores",
+                    "jugadores":[
+                        {
+
+                        }
+                    ]
+                },{
+                    "id": "12",
+		            "nombre":"Real Club Deportivo Espanyol",
+                    "abreviatura":"RCDE",
+		            "estadio": "RCDE Stadium",
+                    "capacidad":"40.500",
+		            "ciudad": "Barcelona",
+                    "entrenador":"Diego Martinez",
+                    "jugadores":[
+                        {
+
+                        }
+                    ]
+                },{
+                    "id": "13",
+		            "nombre":"Real Club Celta de Vigo",
+                    "abreviatura":"RCV",
+		            "estadio": "Balaídos",
+                    "capacidad":"29.000",
+		            "ciudad": "Vigo",
+                    "entrenador":"Eduardo Coudet",
+                    "jugadores":[
+                        {
+
+                        }
+                    ]
+                },{
+                    "id": "14",
+		            "nombre":"Unión Deportiva Almería",
+                    "abreviatura":"UDM",
+		            "estadio": "Estadio de los Juegos Mediterráneos",
+                    "capacidad":"15.2774",
+		            "ciudad": "Almería",
+                    "entrenador":"Rubí",
+                    "jugadores":[
+                        {
+
+                        }
+                    ]
+                },{
+                    "id": "15",
+		            "nombre":"Elche Club de Futbol",
+                    "abreviatura":"ELC",
+		            "estadio": "Manuel Martínez Valero",
+                    "capacidad":"33.732",
+		            "ciudad": "Elche",
+                    "entrenador":"Francisco Rodriguez",
+                    "jugadores":[
+                        {
+
+                        }
+                    ]
+                },{
+                    "id": "16",
+		            "nombre":"Real Club Deportivo Mallorca",
+                    "abreviatura":"RCM",
+		            "estadio": "Son Moix",
+                    "capacidad":"20.500",
+		            "ciudad": "Mallorca",
+                    "entrenador":"Javier Aguirre",
+                    "jugadores":[
+                        {
+
+                        }
+                    ]
+                },{
+                    "id": "17",
+		            "nombre":"Rayo Vallecano",
+                    "abreviatura":"RAY",
+		            "estadio": "Campo de Futbol de Vallecas",
+                    "capacidad":"15.105",
+		            "ciudad": "Madrid",
+                    "entrenador":"Andoni Iraola",
+                    "jugadores":[
+                        {
+
+                        }
+                    ]
+                },{
+                    "id": "18",
+		            "nombre":"Girona Club de Futbol",
+                    "abreviatura":"GIR",
+		            "estadio": "Municipal de Montilivi",
+                    "capacidad":"11.286",
+		            "ciudad": "Girona",
+                    "entrenador":"Míchel",
+                    "jugadores":[
+                        {
+
+                        }
+                    ]
+                },{
+                    "id": "19",
+		            "nombre":"Cadiz Club de Futbol",
+                    "abreviatura":"CAD",
+		            "estadio": "Nuevo Mirandilla",
+                    "capacidad":"21.094",
+		            "ciudad": "Cadiz",
+                    "entrenador":"Sergio",
+                    "jugadores":[
+                        {
+
+                        }
+                    ]
+                },{
+                    "id": "20",
+		            "nombre":"Real Valladolid Club de Futbol",
+                    "abreviatura":"VAL",
+		            "estadio": "Nuevo José Zorrilla",
+                    "capacidad":"27.618",
+		            "ciudad": "Valladolid",
+                    "entrenador":"Pacheta",
+                    "jugadores":[
+                        {
+
+                        }
+                    ]
+                }
+            ]
+		},
+		{
+			"id": "2",
+			"nombre": "Premier League",
+            "pais":"Inglaterra",
+            "clubs":[
+                {
+                    "id": "1",
+		            "nombre":"Machester City",
+                    "abreviatura":"MAC",
+		            "estadio": "Etihad Stadium",
+                    "capacidad":"55.017",
+		            "ciudad": "Manchester",
+                    "entrenador":"Pep Guardiola",
+                    "jugadores":[
+                        {
+                            "id":"",
+                            "dorsal":"",
+                            "nombre":"",
+                            "apellido":"",
+                            "cumpleaños":"",
+                            "posicion":"",
+                            "nacionalidad":""
+                        },{
+                            "id":"",
+                            "dorsal":"",
+                            "nombre":"",
+                            "apellido":"",
+                            "cumpleaños":"",
+                            "posicion":"",
+                            "nacionalidad":""
+                        },{
+                            "id":"",
+                            "dorsal":"",
+                            "nombre":"",
+                            "apellido":"",
+                            "cumpleaños":"",
+                            "posicion":"",
+                            "nacionalidad":""
+                        },{
+                            "id":"",
+                            "dorsal":"",
+                            "nombre":"",
+                            "apellido":"",
+                            "cumpleaños":"",
+                            "posicion":"",
+                            "nacionalidad":""
+                        },{
+                            "id":"",
+                            "dorsal":"",
+                            "nombre":"",
+                            "apellido":"",
+                            "cumpleaños":"",
+                            "posicion":"",
+                            "nacionalidad":""
+                        },{
+                            "id":"",
+                            "dorsal":"",
+                            "nombre":"",
+                            "apellido":"",
+                            "cumpleaños":"",
+                            "posicion":"",
+                            "nacionalidad":""
+                        },{
+                            "id":"",
+                            "dorsal":"",
+                            "nombre":"",
+                            "apellido":"",
+                            "cumpleaños":"",
+                            "posicion":"",
+                            "nacionalidad":""
+                        },{
+                            "id":"",
+                            "dorsal":"",
+                            "nombre":"",
+                            "apellido":"",
+                            "cumpleaños":"",
+                            "posicion":"",
+                            "nacionalidad":""
+                        },{
+                            "id":"",
+                            "dorsal":"",
+                            "nombre":"",
+                            "apellido":"",
+                            "cumpleaños":"",
+                            "posicion":"",
+                            "nacionalidad":""
+                        },{
+                            "id":"",
+                            "dorsal":"",
+                            "nombre":"",
+                            "apellido":"",
+                            "cumpleaños":"",
+                            "posicion":"",
+                            "nacionalidad":""
+                        },{
+                            "id":"",
+                            "dorsal":"",
+                            "nombre":"",
+                            "apellido":"",
+                            "cumpleaños":"",
+                            "posicion":"",
+                            "nacionalidad":""
+                        },{
+                            "id":"",
+                            "dorsal":"",
+                            "nombre":"",
+                            "apellido":"",
+                            "cumpleaños":"",
+                            "posicion":"",
+                            "nacionalidad":""
+                        },{
+                            "id":"",
+                            "dorsal":"",
+                            "nombre":"",
+                            "apellido":"",
+                            "cumpleaños":"",
+                            "posicion":"",
+                            "nacionalidad":""
+                        },{
+                            "id":"",
+                            "dorsal":"",
+                            "nombre":"",
+                            "apellido":"",
+                            "cumpleaños":"",
+                            "posicion":"",
+                            "nacionalidad":""
+                        },{
+                            "id":"",
+                            "dorsal":"",
+                            "nombre":"",
+                            "apellido":"",
+                            "cumpleaños":"",
+                            "posicion":"",
+                            "nacionalidad":""
+                        },{
+                            "id":"",
+                            "dorsal":"",
+                            "nombre":"",
+                            "apellido":"",
+                            "cumpleaños":"",
+                            "posicion":"",
+                            "nacionalidad":""
+                        }
+                    ]
+                }
+            ]
+		},
+		{
+			"id": "3",
+			"nombre": "Bundesliga",
+            "pais":"Alemania"
+		},
+		{
+			"id": "4",
+			"nombre": "Serie A",
+            "pais":"Italia"
+		},
+		{
+			"id": "5",
+			"nombre": "Ligue 1",
+            "pais":"Francia"
+		}
+    ]
+}
