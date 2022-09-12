@@ -1,0 +1,8 @@
+.si:after{
+    color: red;
+    content: " (Autogol)";
+}
+
+.minuto:after{
+    content: "'";
+}

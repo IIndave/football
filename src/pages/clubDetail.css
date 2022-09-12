@@ -1,0 +1,41 @@
+.clubdata-gallery{
+    margin: 10vw 5vw 7vw 5vw;
+    justify-content: space-evenly;
+}
+.club-card{
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  margin: 3vw 5vw 2vw 5vw;
+}
+
+.club-escudo{
+  justify-self: center;
+}
+
+td{
+  text-align: center;
+}
+tr>th{
+  text-align: center;
+
+}
+.Delantero{
+  background: rgb(249,249,249);
+  background: radial-gradient(circle, rgba(249,249,249,1) 40%, rgba(255, 77, 77, 0.750) 19%, rgba(255, 77, 77, 0.750) 80%) !important;
+}
+
+.Mediocampo{
+  background: rgb(249,249,249);
+  background: radial-gradient(circle, rgba(249,249,249,1) 40%, rgba(255, 77, 77, 0.500) 19%, rgba(255, 77, 77, 0.500) 80%) !important;
+}
+
+.Defensa{
+  background: rgb(249,249,249);
+  background: radial-gradient(circle, rgba(249,249,249,1) 40%, rgba(255, 77, 77, 0.300) 19%, rgba(255, 77, 77, 0.300) 80%) !important;
+}
+
+.Portero{
+  background: rgb(249,249,249);
+  background: radial-gradient(circle, rgba(249,249,249,1) 40%, rgba(255, 77, 77, 0.150) 19%, rgba(255, 77, 77, 0.150) 80%) !important;
+}

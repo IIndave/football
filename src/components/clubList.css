@@ -1,0 +1,28 @@
+.escudo{
+    margin: 10px 10px 10px 5px;
+    max-width: 40px;
+}
+
+.clubs-gallery{
+    margin: 10vw 5vw 7vw 5vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+}
+
+.club{
+    align-self: center;
+    justify-self: left;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+img{
+    justify-content: right;
+}
+
+.club-title{
+    font-size: 1.25vw;
+    align-self: center;
+    justify-content: left;
+}

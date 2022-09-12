@@ -1,0 +1,19 @@
+.game{
+    display: grid; 
+    grid-template-columns: 2fr 1fr 2fr;
+    text-align: center;
+    /* margin: 5vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly; */
+}
+
+h4{
+    text-align: center;
+}
+.local{
+    text-align: right;
+}
+.visitante{
+    text-align: left;
+}

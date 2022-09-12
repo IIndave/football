@@ -1,0 +1,21 @@
+.liga{
+    justify-self: center;
+}
+
+.liga-logo{
+    width: 6vw;
+    align-self: center;
+    justify-self: right;
+}
+
+.liga-title{
+    font-size: 1.5vw;
+    align-self: center;
+    justify-content: left;
+}
+
+.ligas-gallery{
+    margin: 10vw 5vw 7vw 5vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
