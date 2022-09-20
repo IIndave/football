@@ -3,7 +3,7 @@ import GameList from '../components/gameList'
 
 import './games.css'
 import { useState,useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams,useNavigate } from "react-router-dom";
 import axios from 'axios';
 
 
@@ -27,11 +27,16 @@ export default function Games(){
         }
         )
         }
+        let navigate = useNavigate();
 
+        function handleChange() {
+            var x = document.getElementById("mySelect").value;
+            navigate(`/clubs/1/jornada/${x}`);
+        }
       
       useEffect(()=>{
       getClubData();
-      },[]);       
+      },[idJornada]);       
         
       return (
           <div>
@@ -41,6 +46,12 @@ export default function Games(){
                 <span className='loading'>Cargando...</span>
             ) : (
             <div>
+                <a href={`/clubs/${idLiga}`}>Atras</a>
+                <select id="mySelect" onChange={event => handleChange(event.target.value)} class=" form-select form-select-sm" aria-label=".form-select-sm example">
+                    <option value="1" >1</option>
+                    <option value="2" >2</option>
+                    {/* <option value="3" >3</option> */}
+                </select>
                 <GameList items = { games.map((game) => (
                 {
                     idLiga:idLiga,
