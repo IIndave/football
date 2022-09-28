@@ -1,10 +1,11 @@
 .escudo{
     margin: 10px 10px 10px 5px;
-    max-width: 40px;
+    max-width: 3vw;
+    max-height: 4vw;
 }
 
 .clubs-gallery{
-    margin: 10vw 5vw 7vw 5vw;
+    margin: 5vw 5vw 5vw 5vw;
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content: space-evenly;
@@ -19,6 +20,7 @@
 
 img{
     justify-content: right;
+    
 }
 
 .club-title{

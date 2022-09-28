@@ -1,11 +1,13 @@
 .liga{
     justify-self: center;
+    display: grid;
 }
 
 .liga-logo{
-    width: 6vw;
+    max-width: 9vw;
+    height: 4vw;
     align-self: center;
-    justify-self: right;
+    justify-self: center;
 }
 
 .liga-title{

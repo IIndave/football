@@ -1,7 +1,7 @@
 import ClubList from '../components/clubList';
 import Jornadas from '../components/jornadas';
 import Header from '../components/header';
-
+import './clubs.css'
 import { useState, useEffect } from 'react';
 
 import { useParams } from "react-router-dom";
@@ -42,7 +42,8 @@ export default function Clubs(){
             { loading ? (
                 <span className='loading'>Cargando...</span>
             ) : (
-                <div>
+                <div className='clubes'>
+                    <a className='volver' href={`/`}>Volver a lista de ligas</a>
                     <ClubList items = { clubs.map((club) => (
                         {
                             value:idLiga,

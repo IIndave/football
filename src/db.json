@@ -14,7 +14,7 @@
 		            "estadio": "El Sadar",
                     "capacidad":"23.576",
 		            "ciudad": "Pamplona",
-                    "escudo": "../../../assets/osasuna.png",
+                    "escudo": "/../../assets/laliga/osasuna.png",
                    
                     "entrenador":"Jagoba Arrasate",
                     "jugadores":[
@@ -420,7 +420,7 @@
 		            "estadio": "Estadio de los Juegos Mediterráneos",
                     "capacidad":"15.2774",
 		            "ciudad": "Almería",
-                    "escudo":"../../../assets/almeria.png",
+                    "escudo":"../../../assets/almeia.png",
                     "entrenador":"Rubí",
                     "jugadores":[
                         {
@@ -963,7 +963,7 @@
 		            "estadio": "Etihad Stadium",
                     "capacidad":"55.017",
 		            "ciudad": "Manchester",
-                    "escudo":"",
+                    "escudo":"../../../assets/almeria.png",
                     "entrenador":"Pep Guardiola",
                     "jugadores":[
                         {

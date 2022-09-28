@@ -83,7 +83,8 @@ export default function ClubDetail(){
                 <div className='info-club'>
                   <h1 className='club-nombre'>{datos.nombre}</h1>
                   <h5>{datos.ciudad}</h5>
-                  <h6 className='estadio'>Estadio: <span className='estadio-nombre'>{datos.estadio}</span> <span className='estadio-capacidad'>{datos.capacidad}</span></h6>
+                  <h6 className='estadio'>Estadio: <span className='estadio-nombre'>{datos.estadio}</span></h6>
+                  <h6 className='estadio'>Capacidad:<span className='estadio-capacidad'> {datos.capacidad} asientos.</span></h6>
                 </div>
               </div>
               <table className="table caption-top">
