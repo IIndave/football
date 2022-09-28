@@ -36,14 +36,12 @@ export default function Clubs(){
 
       return (
         <div className="">
-            <Header>
             
-            </Header>
             { loading ? (
                 <span className='loading'>Cargando...</span>
             ) : (
                 <div className='clubes'>
-                    <a className='volver' href={`/`}>Volver a lista de ligas</a>
+                    <a className='volver' href={`/#sec`}>Volver a lista de ligas</a>
                     <ClubList items = { clubs.map((club) => (
                         {
                             value:idLiga,

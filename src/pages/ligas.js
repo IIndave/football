@@ -1,3 +1,4 @@
+import "./ligas.css";
 import List from '../components/list';
 import Header from '../components/header';
 
@@ -25,14 +26,15 @@ export default function Ligas(){
       },[]);
 
       return (
-        <div className="">
+        <div className="main">
             <Header>
             
             </Header>
             { loading ? (
                 <span className='loading'>Cargando...</span>
             ) : (
-                <div>
+                <div id="sec" className="ligas">
+                    {/* <img className='ball' src='../assets/ball.jpg'></img> */}
                     <List items={ ligas.map((liga) => (
                         {
                             idLiga:liga.id,

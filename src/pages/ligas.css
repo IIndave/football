@@ -1,0 +1,12 @@
+.ball{
+    content: "";
+    opacity: 65%;
+    width: 100vw;
+}
+.ligas{
+
+}
+.best-ligas{
+    background-size: 100vw;
+    background-image: url(../../public/assets/ball.jpg);
+}

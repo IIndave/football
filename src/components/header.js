@@ -1,16 +1,14 @@
 import './header.css';
-
+import { IoFootballOutline } from "react-icons/io5";
 
 export default function Header(){
 
         return (
-            <header>
-              
-            <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-              <div className="container-fluid">
-                <a className="navbar-brand" href="/">FutbolínFo</a>
+            <div className='header'>
+              <div className="container">
+                  <IoFootballOutline className='iconoF'/><a className="navbar-brand" href="#sec">. FutbolínFo .</a>
               </div>
-            </nav>
-          </header>
+              <div className='slogan'>Futbolízate con <span className='brand'>futbolínfo .</span></div>
+          </div>
     )
 }
