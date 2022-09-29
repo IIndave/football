@@ -9,7 +9,7 @@ export default function List({items}){
             <div className='ligas-gallery'>
                 {items.map((item)=>(
                     <div className="liga">
-                        <a href={`/football/clubs/${item.idLiga}`}><img className={`liga-logo liga-logo-${item.idLiga}`} src={item.image}/></a>
+                        <a href={`clubs/${item.idLiga}`}><img className={`liga-logo liga-logo-${item.idLiga}`} src={item.image}/></a>
                         {/* <a key={item.id} className="liga-title" href={`clubs/${item.idLiga}`}>
                                 {item.name} 
                         </a> */}

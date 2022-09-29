@@ -12,18 +12,14 @@ import GameDetail from './pages/gameDetail';
 function App() {
   return (
     <div className='App'>
-                <BrowserRouter>
                     <Routes>
                         <Route path="/football" element={<Ligas></Ligas>}></Route>
-                        <Route path="/football/clubs/:idLiga" element={<Clubs></Clubs>}></Route>
-                        <Route path="/football/clubs/:idLiga/club/:idClub" element={<ClubDetail ></ClubDetail>}></Route>
-                        <Route path="/football/clubs/:idLiga/jornada/:idJornada" element={<Games ></Games>}></Route>
-                        <Route path="/football/clubs/:idLiga/jornada/:idJornada/partido/:idGame" element={<GameDetail ></GameDetail>}></Route>
-
-                        {/* <Route path="/clubs/:idLiga/club/:idClub/player/:idPLayer" element={<PlayerDetail ></PlayerDetail>}></Route> */}
+                        <Route path="football/clubs/:idLiga" element={<Clubs></Clubs>}></Route>
+                        <Route path="football/clubs/:idLiga/club/:idClub" element={<ClubDetail ></ClubDetail>}></Route>
+                        <Route path="football/clubs/:idLiga/jornada/:idJornada" element={<Games ></Games>}></Route>
+                        <Route path="football/clubs/:idLiga/jornada/:idJornada/partido/:idGame" element={<GameDetail ></GameDetail>}></Route>
                     </Routes>
-                </BrowserRouter>
-    </div>
+   </div>
   );
 }
 

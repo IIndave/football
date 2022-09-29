@@ -35,24 +35,23 @@ export default function Clubs(){
 
       return (
         <div className="fondo-clubes">
-            {/* <img className='linea' src='../assets/alineacion.jpg'></img> */}
             { loading ? (
                 <span className='loading'>Cargando...</span>
             ) : (
                 <div className='clubes'>
                     <a className='volver' href={`/football/#ligas`}>
                         <div id="arrowAnim">
-                            <div class="arrowSliding">
+                            <div className="arrowSliding">
+                                <div className="arrow"></div>
+                            </div>
+                            <div className="arrowSliding delay1">
+                                <div className="arrow"></div>
+                            </div>
+                            <div className="arrowSliding delay2">
                                 <div class="arrow"></div>
                             </div>
-                            <div class="arrowSliding delay1">
-                                <div class="arrow"></div>
-                            </div>
-                            <div class="arrowSliding delay2">
-                                <div class="arrow"></div>
-                            </div>
-                            <div class="arrowSliding delay3">
-                                <div class="arrow"></div>
+                            <div className="arrowSliding delay3">
+                                <div className="arrow"></div>
                             </div>
                         </div>
                     </a>
