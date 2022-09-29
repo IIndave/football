@@ -33,8 +33,7 @@ export default function Ligas(){
             { loading ? (
                 <span className='loading'>Cargando...</span>
             ) : (
-                <div id="sec" className="ligas">
-                    {/* <img className='ball' src='../assets/ball.jpg'></img> */}
+                <div id="ligas" className="ligas">
                     <List items={ ligas.map((liga) => (
                         {
                             idLiga:liga.id,

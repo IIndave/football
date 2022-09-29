@@ -1,5 +1,5 @@
 .clubdata-gallery{
-    margin: 10vw 5vw 7vw 5vw;
+    margin: 5vw 5vw 7vw 5vw;
     justify-content: space-evenly;
 }
 .club-card{
@@ -40,4 +40,16 @@ tr>th{
 .Portero{
   background: rgb(249,249,249);
   background: radial-gradient(circle, rgba(249,249,249,1) 40%, rgba(255, 77, 77, 0.150) 19%, rgba(255, 77, 77, 0.150) 80%) !important;
+}
+
+.detalle{
+  font-size: 2vw;
+    padding-top: 4vw;
+    max-height: 10vw;
+    background-image: url("../../public/assets/campo.jpg");
+    background-size: cover;
+}
+
+.table-dark{
+  font-size: xx-large;
 }

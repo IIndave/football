@@ -1,5 +1,5 @@
 .partidos{
-    margin: 2vw 5vw 7vw 5vw;
+    margin: 1vw 5vw 7vw 5vw;
     display: grid;
     grid-template-columns: auto auto ;
     justify-content: space-evenly;

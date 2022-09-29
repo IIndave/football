@@ -70,14 +70,27 @@ export default function ClubDetail(){
       },[]);       
         
       return (
-          <div>
-            <Header>
-            </Header>
+          <div className='detalle'>
+            <a className='volver' href={`/clubs/${idLiga}`}>
+                        <div id="arrowAnim">
+                            <div class="arrowSliding">
+                                <div class="arrow"></div>
+                            </div>
+                            <div class="arrowSliding delay1">
+                                <div class="arrow"></div>
+                            </div>
+                            <div class="arrowSliding delay2">
+                                <div class="arrow"></div>
+                            </div>
+                            <div class="arrowSliding delay3">
+                                <div class="arrow"></div>
+                            </div>
+                        </div>
+                    </a>
             { loading ? (
                 <span className='loading'>Cargando...</span>
             ) : (
             <div className='clubdata-gallery'>
-              <a href={`/clubs/${idLiga}`}>Volver a lista de equipos</a>
               <div className='club-card'>
                 <img src={datos.escudo} className="club-escudo"></img>
                 <div className='info-club'>

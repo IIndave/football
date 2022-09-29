@@ -1,3 +1,79 @@
-.clubes{
-    margin: 10vw 5vw 7vw 5vw;
+.fondo-clubes{
+    background-image: url("../../public/assets/alineacion3.jpg");
+    background-size: 100vw;
+    max-width: 100vw;
+    font-family: fantasy;
+    color: rgb(255, 34, 34);
+    max-height: 40vw;
+    background-repeat: no-repeat;
+
 }
+a{
+    color: rgb(255, 34, 34);
+    text-decoration: none;
+}
+.clubes{
+    font-size: 2vw;
+    margin: 0vw 3vw 0vw 6vw;
+    padding-top: 4vw;
+    text-transform: uppercase;
+}
+a.club-title{
+    color: black;
+}
+
+a.club-title:hover{
+    color: rgb(255, 34, 34);
+    text-decoration: underline overline;
+    text-decoration-thickness: .5vw;
+}
+
+
+#arrowAnim {
+    width: 22vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .arrow {
+    width: 5vw;
+    height: 5vw;
+    border: 2.5vw solid;
+    border-color: rgba(255, 34, 34, 0.589) transparent transparent rgb(255, 34, 34, 0.589);
+    transform: rotate(-45deg);
+  }
+  
+  
+  .arrowSliding {
+    position: absolute;
+    -webkit-animation: slide 2s linear infinite; 
+            animation: slide 2s linear infinite;
+  }
+  
+  .delay1 {
+    -webkit-animation-delay: 0s; 
+      animation-delay: 0s;
+  }
+  .delay2 {
+    -webkit-animation-delay: 1s; 
+      animation-delay: 0.5s;
+  }
+  .delay3 {
+    -webkit-animation-delay: 2s; 
+      animation-delay: 1.5s;
+  }
+  
+  @-webkit-keyframes slide {
+    0% { opacity:0; transform: translateX(15vw); }	
+   20% { opacity:1; transform: translateX(9vw); }	
+   80% { opacity:1; transform: translateX(-9vw); }	
+  100% { opacity:0; transform: translateX(-15vw); }	
+}
+  @keyframes slide {
+      0% { opacity:0; transform: translateX(15vw); }	
+     20% { opacity:1; transform: translateX(9vw); }	
+     80% { opacity:1; transform: translateX(-9vw); }	
+    100% { opacity:0; transform: translateX(-15vw); }	
+  }

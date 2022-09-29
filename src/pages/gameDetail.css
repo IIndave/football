@@ -6,3 +6,11 @@
 .minuto:after{
     content: "'";
 }
+
+.detalle-game{
+    margin: 5vw 5vw 5vw 5vw;
+}
+
+.fondo-game{
+    padding-top: 4vw;
+}

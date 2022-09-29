@@ -5,10 +5,11 @@
 }
 
 .clubs-gallery{
-    margin: 5vw 5vw 5vw 5vw;
+    margin: 5vw 0vw 1vw 0vw;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    background-color: white;
 }
 
 .club{
@@ -24,7 +25,8 @@ img{
 }
 
 .club-title{
-    font-size: 1.25vw;
+    font-size: 1.45vw;
     align-self: center;
     justify-content: left;
+    margin-right: 0.5vw;
 }

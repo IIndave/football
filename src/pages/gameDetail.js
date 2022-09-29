@@ -35,13 +35,27 @@ export default function GameDetail(){
     
       return (
         
-          <div>
-            <Header>
-            </Header>
+          <div className='fondo-game'>
+            <a className='volver' href={`/clubs/${idLiga}/jornada/${idJornada}`}>
+                        <div id="arrowAnim">
+                            <div class="arrowSliding">
+                                <div class="arrow"></div>
+                            </div>
+                            <div class="arrowSliding delay1">
+                                <div class="arrow"></div>
+                            </div>
+                            <div class="arrowSliding delay2">
+                                <div class="arrow"></div>
+                            </div>
+                            <div class="arrowSliding delay3">
+                                <div class="arrow"></div>
+                            </div>
+                        </div>
+                    </a>
             { loading ? (
                 <span className='loading'>Cargando...</span>
             ) : (
-            <div className=''>
+            <div className='detalle-game'>
             <table className="table caption-top">
             <caption className='entrenador'><h6>Asistencia : <span>{datos.asistencia}</span></h6></caption>
               <thead className='table-dark'>

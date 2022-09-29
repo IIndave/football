@@ -2,12 +2,17 @@
     display: grid; 
     grid-template-columns: 2fr 1fr 2fr;
     text-align: center;
+    color: black;
     /* margin: 5vw;
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-evenly; */
 }
 
+.game:hover{
+    color: rgb(255, 34, 34);
+    text-decoration: underline;
+ }
 h4{
     text-align: center;
 }
@@ -16,4 +21,14 @@ h4{
 }
 .visitante{
     text-align: left;
+}
+
+.tabla-jornadas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0vw 6vw 0vw 6vw;
+}
+
+.jornadas{
+    height: 25vw;
 }

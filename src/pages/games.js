@@ -39,15 +39,31 @@ export default function Games(){
       },[idJornada]);       
         
       return (
-          <div>
-            <Header>
-            </Header>
+          <div className='fondo-jornada'>
+            
             { loading ? (
                 <span className='loading'>Cargando...</span>
             ) : (
-            <div>
-                <a href={`/clubs/${idLiga}`}>Atras</a>
+            <div className='games'>
+                <a className='volver' href={`/#ligas`}>
+                        <div id="arrowAnim">
+                            <div class="arrowSliding">
+                                <div class="arrow"></div>
+                            </div>
+                            <div class="arrowSliding delay1">
+                                <div class="arrow"></div>
+                            </div>
+                            <div class="arrowSliding delay2">
+                                <div class="arrow"></div>
+                            </div>
+                            <div class="arrowSliding delay3">
+                                <div class="arrow"></div>
+                            </div>
+                        </div>
+                    </a>
+                <label>Jornada:</label>
                 <select id="mySelect" onChange={event => handleChange(event.target.value)} class=" form-select form-select-sm" aria-label=".form-select-sm example">
+                    <option hidden selected>{`${idJornada}`}</option>
                     <option value="1" >1</option>
                     <option value="2" >2</option>
                     {/* <option value="3" >3</option> */}
