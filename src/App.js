@@ -15,7 +15,7 @@ function App() {
                 <BrowserRouter>
                     <Routes>
                         <Route path="/football" element={<Ligas></Ligas>}></Route>
-                        <Route path="/football/clubs/:idLiga/" element={<Clubs></Clubs>}></Route>
+                        <Route path="/football/clubs/:idLiga" element={<Clubs></Clubs>}></Route>
                         <Route path="/football/clubs/:idLiga/club/:idClub" element={<ClubDetail ></ClubDetail>}></Route>
                         <Route path="/football/clubs/:idLiga/jornada/:idJornada" element={<Games ></Games>}></Route>
                         <Route path="/football/clubs/:idLiga/jornada/:idJornada/partido/:idGame" element={<GameDetail ></GameDetail>}></Route>
