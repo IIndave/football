@@ -14,7 +14,7 @@ function App() {
     <div className='App'>
                 <BrowserRouter>
                     <Routes>
-                        <Route path="/" element={<Ligas></Ligas>}></Route>
+                        <Route path="/football" element={<Ligas></Ligas>}></Route>
                         <Route path="/clubs/:idLiga/" element={<Clubs></Clubs>}></Route>
                         <Route path="/clubs/:idLiga/club/:idClub" element={<ClubDetail ></ClubDetail>}></Route>
                         <Route path="/clubs/:idLiga/jornada/:idJornada" element={<Games ></Games>}></Route>
