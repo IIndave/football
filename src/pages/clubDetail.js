@@ -1,4 +1,3 @@
-import Header from '../components/header';
 
 import './clubDetail.css'
 import { useState,useEffect } from "react";
@@ -71,7 +70,7 @@ export default function ClubDetail(){
         
       return (
           <div className='detalle'>
-            <a className='volver' href={`/clubs/${idLiga}`}>
+            <a className='volver' href={`/football/clubs/${idLiga}`}>
                         <div id="arrowAnim">
                             <div class="arrowSliding">
                                 <div class="arrow"></div>

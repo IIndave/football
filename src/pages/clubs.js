@@ -1,6 +1,5 @@
 import ClubList from '../components/clubList';
 import Jornadas from '../components/jornadas';
-import Header from '../components/header';
 import './clubs.css'
 import { useState, useEffect } from 'react';
 
@@ -41,7 +40,7 @@ export default function Clubs(){
                 <span className='loading'>Cargando...</span>
             ) : (
                 <div className='clubes'>
-                    <a className='volver' href={`/#ligas`}>
+                    <a className='volver' href={`/football/#ligas`}>
                         <div id="arrowAnim">
                             <div class="arrowSliding">
                                 <div class="arrow"></div>

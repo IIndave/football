@@ -1,4 +1,3 @@
-import Header from '../components/header';
 
 import './gameDetail.css'
 import { useState,useEffect } from "react";
@@ -36,7 +35,7 @@ export default function GameDetail(){
       return (
         
           <div className='fondo-game'>
-            <a className='volver' href={`/clubs/${idLiga}/jornada/${idJornada}`}>
+            <a className='volver' href={`/football/clubs/${idLiga}/jornada/${idJornada}`}>
                         <div id="arrowAnim">
                             <div class="arrowSliding">
                                 <div class="arrow"></div>

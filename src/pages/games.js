@@ -1,4 +1,3 @@
-import Header from '../components/header';
 import GameList from '../components/gameList'
 
 import './games.css'
@@ -31,7 +30,7 @@ export default function Games(){
 
         function handleChange() {
             var x = document.getElementById("mySelect").value;
-            navigate(`/clubs/1/jornada/${x}`);
+            navigate(`/football/clubs/1/jornada/${x}`);
         }
       
       useEffect(()=>{
@@ -45,7 +44,7 @@ export default function Games(){
                 <span className='loading'>Cargando...</span>
             ) : (
             <div className='games'>
-                <a className='volver' href={`/#ligas`}>
+                <a className='volver' href={`/football/clubs/${idLiga}`}>
                         <div id="arrowAnim">
                             <div class="arrowSliding">
                                 <div class="arrow"></div>

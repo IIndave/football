@@ -8,7 +8,7 @@ export default function Jornadas({games}){
             <h4>Jornadas</h4>
             <div className='tabla-jornadas'>
                 {games.map((game)=>(   
-                    <a key={game.idJornada} className={`game ${game.idJornada}`} href={`/clubs/${game.idLiga}/jornada/${game.idJornada}`}>
+                    <a key={game.idJornada} className={`game ${game.idJornada}`} href={`/football/clubs/${game.idLiga}/jornada/${game.idJornada}`}>
                         <h6 className='numero'>{game.idJornada}</h6>
                     </a>
             ))}
